@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 110%;
+}
+
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("ACC.jpg");
+  min-height: 105%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">MINHAS LEMBRANÇAS </a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">LEMBRANÇAS</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">PASSEIO</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">Presente</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small"></div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">Melhor<br>Turma</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">15 Adr street, 5015</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">LEMBRANÇAS</span></h5>
+    <p>Eu não  me lembro de quase nada do 6 ao 9 ano, principalmente do 8 e 9 porque venho a pandemia e nois teve que ficar em casa.Minha turma teste do  6 até o 9 eram as mesma pessoas só mudava uns q entravam a cada ano, mais no 1 ano foi totalmente diferente pois eu estudava a tarde daí mudei para de manhã e separaram todo mundo e foram colocam em salas aleatoriamente, mais fiz boas amizades, e no 1 ano eu me aproximei da poly mesmo estando em salas diferentes  sempre estudamos junto mais nunca conversávamos e tu nada nois viramos melhores amigos sem saber oq o futuro nos aguardava.</p>
+    <p>Tive bons momentos no 1 mais não me lembro bem, dai no final do ano nois tivemos que escolher se íamos para área de exatas ou humanas, então a turma foi separada novamente.Estão no 2 ano tinha poucas pessoas que eu conhecia, e pelo destino eu e a poly caímos na mesma sala.Esse ano foi bom e ruim, não tínhamos educação física, daí tacávamos o terror e jogávamos futebol na sala, teve briga dos mulekes que a professora saiu chorando da sala porque eles saíram no soco na aula dela,muitos momentos bons.</p>
+    <p>...</p>
+    <img src="turma.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>Ultima foto do 2 ano:</strong> 05/12/23, MORELLI</p>
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">PASSEIO</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div>
+          <p>Esse passeio foi no dia 26 de julho de 2023, foi o melhor passeio que eu já fui, ainda mais que essa data se tornou especial para mim pois foi nesse dia q eu e a poly começamos a namorar. Esse passeio foi muito bom e divertido, cada momento foi muito daora a hora que entramos na caverna e fomos tomar banho na gruda, momentos q estávamos na trilha de barro todos molhados e quase caindo no chão teve uns q caíram ri muito, a hora paramos para comer e começamos a conversar e perguntamos sobre a vida do guia que acompanhou nois(cara muitos gente boa).
+            A parte do ônibus a hora q estávamos indo embora com a caixinha de som, todos muitos felizes, gritando, pulando, zoando até a professora pegar a caixinha e acabar com a nossa alegria, mais mesmo assim ficamos zoando. O momento mais especial que tudo isso foi eu e a poly abrindo os sentidos que um tinha pelo outro, e hoje somos muitos felizes.</p>
+        </div>
+      </a>
+    </div>
+  
+    <img src="foto.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+    <p><strong> Na saida da caverna: </strong> 26/07/23 </p>
+  </div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Este ano </span></h5>
+    <p>Este ano está sendo muito bom, eu imaginava no 3 ano ia ser mais difícil do q o normal só que não, umas das coisa que eu tô gostando é de fazer o trabalho da cieli de fazer uma messa de icosaedro , só achei ruim que ainda não vomos para lugar nenhum,mais esse ano está sendo muito bom e cheio de lembranças incríveis. Sempre vou lembrar dessa turma a melhor que eu já estive cada momento cheio de alegria, toda hora eu estou tento risada, mas o melhor de tudo é que minha namorada está na mesma sala e vivendo estes momentos maravilhosos comigo, e pra deixa claro eu amo muito ela...</p>
+    <img src="rick.jpg" class="w3-image" style="width:100%">
+    <p><strong> Momento historico, 1 trabalho q eles fizeram: </strong> 17/10/24 </p>
+  </div>
+</div>
+<style>
+  .image-row {
+    display: flex;
+    justify-content: space-around; /* Espaçamento entre as imagens */
+    align-items: center; /* Alinha as imagens verticalmente */
+    margin-top: 20px;
+  }
+
+  .image-row img {
+    width: 200px; /* Largura das imagens */
+    height: auto; /* Mantém a proporção original da imagem */
+  }
+</style>
+</head>
+<body>
+
+<div class="image-row">
+<img src="eu.jpg" alt="Imagem 1">
+<img src="eu2.jpg" alt="Imagem 2">
+<img src="poly.jpg" alt="Imagem 3">
+<img src="vv.jpg" alt="Imagem 4">
+</div>
+
+<!-- End page content -->
+</div>
+
+</body>
+</html>
